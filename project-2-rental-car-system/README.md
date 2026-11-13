@@ -20,3 +20,28 @@ Implemented stored procedures and functions with robust error handling and valid
 
 ## 📂 Project Artifacts
 - `/images`: Contains the ER Diagram and PL/SQL execution results demonstrating the scenarios (success cases and error handling).
+
+## 📊 ER Diagram
+![ER Diagram](images/er_diagram2.png)
+
+## 💻 PL/SQL Execution Results
+
+### Procedure 1: Calculate Customer Total Spends
+- [Scenario 1: User Enter Correct Customer ID](images/proc1_scen1.png)
+- [Scenario 2: User Enter Incorrect Customer ID](images/proc1_scen2.png)
+
+### Procedure 2: Calculate Rental Amount
+- [Scenario 1: User Enter Correct Car ID](images/proc2_scen1.png)
+- [Scenario 2: User Enter Incorrect Date (End date before start date)](images/proc2_scen2.png)
+- [Scenario 3: User Not Enter Input In The Date](images/proc2_scen3.png)
+- [Scenario 4: User Enter Incorrect Car ID](images/proc2_scen4.png)
+
+### Function 1: Get the Car's Revenue by Their Make
+- [Execution Result](images/func_1.png)
+- [Scenario 1: Calculate The Revenue for Proton](images/func1_scen1.png)
+- [Scenario 2: Calculate The Revenue for Mitsubishi](images/func1_scen2.png)
+
+### Function 2: Get the Customer's Payment
+- [Execution Result](images/func2.png)
+- [Scenario 1: Get the payment for Customer with Customer_ID 2242](images/func2_scen1.png)
+- [Scenario 2: Get the payment for Customer with Customer_ID 2241](images/func2_scen2.png)
