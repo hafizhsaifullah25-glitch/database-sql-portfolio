@@ -34,3 +34,13 @@ Executed complex queries to extract meaningful insights:
 ## 🛠 Tech Stack
 - **Database**: Oracle Database
 - **Language**: SQL
+
+## 📊 ER Diagram
+![ER Diagram](images/er_diagram.png)
+
+## 💻 Query Results
+![Query A Result](images/query_result_a.png)
+![Query B Result](images/query_result_b.png)
+![Query C Result](images/query_result_c.png)
+![Query D Result](images/query_result_d.png)
+![Query E Result](images/query_result_e.png)
